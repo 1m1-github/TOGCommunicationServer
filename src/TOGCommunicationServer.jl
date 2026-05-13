@@ -15,7 +15,7 @@ function addclient(;group, name)
     # TOGZMQClient.start(group=group, router=ROUTERSOCKET[].last_endpoint, pub=PUBSOCKET[].last_endpoint, name=name)
 end
 
-function start(;router, pub)
+function awaken(;router, pub)
     ROUTERSOCKET[] = Socket(ROUTER)
     PUBSOCKET[] = Socket(PUB)
     bind(ROUTERSOCKET[], router)
