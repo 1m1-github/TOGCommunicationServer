@@ -1,8 +1,9 @@
 name = "TOGCommunicationServer"
 uuid = "57b7b16f-cff4-4f2b-ba07-0f472443368a"
-version = "1.0.0"
+version = "2.0.0"
 authors = ["1m1 <imi@1m1.io>"]
 
 [deps]
 LoopOS = "59e1c01a-66d3-4f31-a2af-c2f41340710f"
+TOGZMQ = "9d53f387-cc57-4756-9043-cdf1274bde3f"
 ZMQ = "c2297ded-f4af-51ae-bb23-16f91089e4e1"
