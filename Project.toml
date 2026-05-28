@@ -1,6 +1,6 @@
 name = "TOGCommunicationServer"
 uuid = "f05f0ea4-d963-465d-8d2a-69fa7afe5123"
-version = "1.0.0"
+version = "2.0.0"
 authors = ["1m1 <imi@1m1.io>"]
 
 [deps]

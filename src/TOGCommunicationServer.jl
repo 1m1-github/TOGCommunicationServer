@@ -1,7 +1,7 @@
 module TOGCommunicationServer
 
 using ZMQ
-using LoopOS: InputPeripheral, OutputPeripheral, listen, @whiletrue
+using LoopOS: listen, @whiletrue
 using TOGZMQ #, TOGZMQClient
 
 # const GROUP = Dict{String,String}()
