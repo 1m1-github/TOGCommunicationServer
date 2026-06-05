@@ -50,7 +50,7 @@ function awaken(;router, pub)
     # listen(RECEIVE)
     @async @whiletrue begin
         to, togroup, from, symbol, description, information = TOGZMQ.receive(ROUTERSOCKET[])
-        @show "received:", to, togroup, from, symbol, description, information
+        @show "TOGCommunicationServer, received", to, togroup, from, symbol, description, typeof(information), information
         # haskey(AGENT, from) || continue
         # TOGZMQ.send(PUBSOCKET[], to, from, information)
         # if to == "group"
